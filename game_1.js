@@ -19,16 +19,16 @@ const name1 = prompt("Как вас зовут?");
 alert("Добро пожаловать " + name1);
 
 //Задание 2
-const pismo = confirm("Ты отправил письмо?");
-if (pismo) {
+const letter = confirm("Ты отправил письмо?");
+if (letter) {
     alert("true")
 } else {
     alert("false")
 }
 
 //Задание 3
-let vozrast = prompt("Подтвердите что вы совершеннолетний! Укажите свой возраст!");
-if (vozrast < 18) {
+let age = prompt("Подтвердите что вы совершеннолетний! Укажите свой возраст!");
+if (age < 18) {
     alert("Доступ запрещен")
 }
 else {
@@ -36,8 +36,8 @@ else {
 }
 
 //Задание 4
-let zagadka = prompt("Два конца, два кольца.Посередине гвоздик.");
-if (zagadka === "ножницы") {
+let riddles = prompt("Два конца, два кольца.Посередине гвоздик.");
+if (riddles === "ножницы") {
     alert("Ответ верный!")
 }
 else {
@@ -45,9 +45,9 @@ else {
 }
 
 //Задание 5
-const chislo = prompt("Угадай число от 1 до 10?")
-const randomchislo = Math.floor(Math.random() * 11);
-if (chislo === randomchislo) {
+let number = prompt("Угадай число от 1 до 10?")
+let randomNumber = Math.floor(Math.random() * 11);
+if (number === randomNumber) {
     alert("Правильно")
 }
 else {
